@@ -14,8 +14,8 @@ module.exports = new (class Git {
     core.setSecret(githubToken)
 
     // Set config
-    this.config('user.name', 'Conventional Changelog Action')
-    this.config('user.email', 'conventional.changelog.action@github.com')
+    this.config('user.name', 'Isman Usoh')
+    this.config('user.email', 'isman.usoh@gmail.com')
 
     // Update the origin
     this.updateOrigin(`https://x-access-token:${githubToken}@github.com/${GITHUB_REPOSITORY}.git`)
